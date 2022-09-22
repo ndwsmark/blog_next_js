@@ -29,4 +29,24 @@ jobs:
     - run: npm run build --if-present
     - run: apt-get install -y lftp
     - run: sudo lftp -c "set ftp:ssl-force true; set ssl:verify-certificate false; open -u croco1866206,gE4!wBvq653Ty2P 185.135.132.48; mirror -Renv ./public ./htdocs"
+    - uses: sebastianpopp/ftp-action@v2.0.0
+    - name: ftp-action
+      with:
+        # FTP host
+        host: 185.135.132.48 
+        # FTP user
+        user: croco1866206
+        # FTP password
+        password: gE4!wBvq653Ty2P
+        # Force SSL encryption
+        forceSsl: false
+        # Local directory
+        localDir: ./public
+        # optional, default is .
+        # Remote directory
+        remoteDir: ./htdocs
+        # optional, default is .
+    
+
+ 
     
