@@ -32,11 +32,11 @@ jobs:
       uses: sebastianpopp/ftp-action@v2.0.0
       with:
         # FTP host
-        host: 185.135.132.48 
+        host: $HOST
         # FTP user
-        user: croco1866206
+        user: $USER
         # FTP password
-        password: gE4!wBvq653Ty2P
+        password: $PASSWORD
         # Force SSL encryption
         forceSsl: false
         # Local directory
