@@ -32,11 +32,11 @@ jobs:
       uses: sebastianpopp/ftp-action@v2.0.0
       with:
         # FTP host
-        host: ${{ host.HOST }}
+        host: ${{ secrets.HOST }}
         # FTP user
-        user: ${{ host.USER }}
+        user: ${{ secrets.USER }}
         # FTP password
-        password: ${{ host.PASSWORD }}
+        password: ${{ secrets.PASSWORD }}
         # Force SSL encryption
         forceSsl: false
         # Local directory
