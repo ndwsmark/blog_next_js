@@ -35,7 +35,7 @@ jobs:
         # FTP host
         host: 185.135.132.48
         # FTP user
-        user: ${{ secrets.USER }}
+        user: croco1866206
         # FTP password
         password: ${{ secrets.PASSWORD }}
         # Force SSL encryption
