@@ -6,6 +6,8 @@
   padding: 0;
 }
 
+
+
 body {
   font-family: 'Poppins', sans-serif;
 }
@@ -35,6 +37,24 @@ header {
 header a {
   color: #fff;
 }
+
+footer {
+  background: steelblue;
+  color: #fff;
+  padding: 5px;
+  margin-top: 40px;
+}
+
+footer a {
+  color: #fff;
+}
+
+h2 {
+	    align-items: center;
+		text-align: center;
+  justify-content: flex-start;
+}
+
 
 .container {
   max-width: 768px;

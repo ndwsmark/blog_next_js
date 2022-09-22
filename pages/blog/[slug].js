@@ -21,6 +21,8 @@ export default function PostPage({
         <div className='post-body'>
           <div dangerouslySetInnerHTML={{ __html: marked(content) }}></div>
         </div>
+		<br></br>
+		<br></br>
       </div>
     </>
   )

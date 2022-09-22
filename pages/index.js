@@ -9,15 +9,17 @@ export default function Home({ posts }) {
   return (
     <div>
       <Head>
-        <title>Dev Blog</title>
+        <title>CrocoDeal</title>
+		<meta name ='keywords' content='web developement, software, ptogramming' />
       </Head>
-
+	  <h3>Blog</h3>
       <div className='posts'>
         {posts.map((post, index) => (
           <Post key={index} post={post} />
         ))}
       </div>
     </div>
+
   )
 }
 
@@ -50,3 +52,5 @@ export async function getStaticProps() {
     },
   }
 }
+ 
+
