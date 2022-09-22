@@ -39,7 +39,7 @@ jobs:
         # Force SSL encryption
         forceSsl: false
         # Local directory
-        localDir: /home/runner/work/next-markdown-blog_nextjs/next-markdown-blog_nextjs/out
+        localDir: /home/runner/work/blog_next_js/blog_next_js/out
         # optional, default is .
         # Remote directory
         remoteDir: .
